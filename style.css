@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Ubuntu', sans-serif; */
+  /* font-family: 'Oswald', sans-serif; */
+}
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+}
+nav ul li {
+  padding: 0px 12px;
+}
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+nav ul li{
+  cursor: pointer;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.container {
+  min-height: 73.7vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  size: 28em;
+  line-height: 0.8em;
+  display: flex;
+  width: 70%;
+  margin: 23px auto;
+  border-radius: 10px;
+  padding: 34px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 130px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 13px;
+}
+.icons i {
+  cursor: pointer;
+}
+#myProgressBar {
+  /* position: sticky; */
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 74px;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  /* width: 80%; */
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0px;
+  border-radius: 34px;
+}
+.head {
+  padding-bottom: 1rem;
+}
+.songItem img {
+  width: 38px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+.timestamp {
+  margin: 0 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+.songInfo {
+  position: absolute;
+  top: 50px;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
